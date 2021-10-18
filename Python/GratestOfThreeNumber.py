@@ -1,0 +1,6 @@
+first=int(input("Enter the first number : "))
+second=int(input("Enter the second number : "))
+third=int(input("Enter the third number : "))
+if(first>=second and first>=third): print("{} is greater than {} and {} ".format(first,second,third))
+elif(second>=first and second>=third):print("{} is greater than {} and {} ".format(second,first,third))
+else:print("{} is greater than {} and {} ".format(third,first,second))

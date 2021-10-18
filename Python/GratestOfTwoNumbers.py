@@ -1,0 +1,5 @@
+first=int(input("Enter first number : "))
+second=int(input("Enter second number : "))
+if(first>second):print("{} is greater than {}".format(first,second))
+elif(second>first):print("{} is greater than {}".format(second,first))
+else:print("Both the numbers {} and {} are equal".format(first,second))
