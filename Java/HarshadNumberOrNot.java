@@ -1,4 +1,15 @@
 import java.util.Scanner;
+/*
+Harshad number is a number or an integer in base 10
+ which is completely divisible by sum of its digits
+
+ Suppose a number 24 .
+Calculate the sum of digits of the number (2 + 4) = 6 .
+Check whether the number entered by user is completely
+divisible by sum of its digits or not.
+
+1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 12, 18, 20………
+ */
 public class HarshadNumberOrNot{
     public static void main(String[]args){
         Scanner sc=new Scanner(System.in);
