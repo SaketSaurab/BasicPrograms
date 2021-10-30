@@ -12,3 +12,5 @@ if number<=1:
              a+=1
 if check==0:print(number," is prime number")
 else:print(number," is not prime number")
+
+''' Not working '''
